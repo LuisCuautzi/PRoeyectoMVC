@@ -1,0 +1,60 @@
+﻿@model Gen06_23_AutosMVC.Models.Rentum
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar</h1>
+
+<h4>Renta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="FechaInicio" class="control-label"></label>
+                <input asp-for="FechaInicio" class="form-control" />
+                <span asp-validation-for="FechaInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaFin" class="control-label"></label>
+                <input asp-for="FechaFin" class="form-control" />
+                <span asp-validation-for="FechaFin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatosPersonalesId" class="control-label"></label>
+                <input asp-for="DatosPersonalesId" class="form-control" />
+                <span asp-validation-for="DatosPersonalesId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PerfilId" class="control-label"></label>
+                <select asp-for="PerfilId" class="form-control" asp-items="ViewBag.PerfilId"></select>
+                <span asp-validation-for="PerfilId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AutoId" class="control-label"></label>
+                <select asp-for="AutoId" class="form-control" asp-items="ViewBag.AutoId"></select>
+                <span asp-validation-for="AutoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusRentaId" class="control-label"></label>
+                <select asp-for="StatusRentaId" class="form-control" asp-items="ViewBag.StatusRentaId"></select>
+                <span asp-validation-for="StatusRentaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Regresar al listado</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

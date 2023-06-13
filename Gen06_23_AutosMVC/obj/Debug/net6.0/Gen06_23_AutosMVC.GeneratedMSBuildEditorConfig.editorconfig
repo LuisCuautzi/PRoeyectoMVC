@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Gen06_23_AutosMVC
+build_property.RootNamespace = Gen06_23_AutosMVC
+build_property.ProjectDir = C:\Users\TRNET-13\source\repos\Gen 06_23\MVC\Gen06_23_AutosMVC\Gen06_23_AutosMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\TRNET-13\source\repos\Gen 06_23\MVC\Gen06_23_AutosMVC\Gen06_23_AutosMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Acceso/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Autoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Autoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Autoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Autoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Autoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Catalogo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/DatosPersonales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0b3NQZXJzb25hbGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/DatosPersonales/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0b3NQZXJzb25hbGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/DatosPersonales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0b3NQZXJzb25hbGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/DatosPersonales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0b3NQZXJzb25hbGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/DatosPersonales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0b3NQZXJzb25hbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Domicilios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Domicilios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Domicilios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Domicilios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Domicilios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Pagoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Pagoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Pagoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Pagoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Pagoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Rentums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHVtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Rentums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHVtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Rentums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHVtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Rentums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHVtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Rentums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudHVtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TRNET-13/source/repos/Gen 06_23/MVC/Gen06_23_AutosMVC/Gen06_23_AutosMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1kmx2ygmtg

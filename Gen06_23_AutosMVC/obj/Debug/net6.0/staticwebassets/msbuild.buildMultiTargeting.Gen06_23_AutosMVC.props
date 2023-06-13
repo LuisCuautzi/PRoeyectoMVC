@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Gen06_23_AutosMVC.props" />
+</Project>

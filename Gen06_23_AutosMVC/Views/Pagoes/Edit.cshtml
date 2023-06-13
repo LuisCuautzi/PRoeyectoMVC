@@ -1,0 +1,65 @@
+﻿@model Gen06_23_AutosMVC.Models.Pago
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar</h1>
+
+<h4>Pago</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Monto" class="control-label"></label>
+                <input asp-for="Monto" class="form-control" />
+                <span asp-validation-for="Monto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumPago" class="control-label"></label>
+                <input asp-for="NumPago" class="form-control" />
+                <span asp-validation-for="NumPago" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PerfilId" class="control-label"></label>
+                <select asp-for="PerfilId" class="form-control" asp-items="ViewBag.PerfilId"></select>
+                <span asp-validation-for="PerfilId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AutoId" class="control-label"></label>
+                <select asp-for="AutoId" class="form-control" asp-items="ViewBag.AutoId"></select>
+                <span asp-validation-for="AutoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusPagoId" class="control-label"></label>
+                <select asp-for="StatusPagoId" class="form-control" asp-items="ViewBag.StatusPagoId"></select>
+                <span asp-validation-for="StatusPagoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CostoAdicionalId" class="control-label"></label>
+                <select asp-for="CostoAdicionalId" class="form-control" asp-items="ViewBag.CostoAdicionalId"></select>
+                <span asp-validation-for="CostoAdicionalId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoPagoId" class="control-label"></label>
+                <select asp-for="TipoPagoId" class="form-control" asp-items="ViewBag.TipoPagoId"></select>
+                <span asp-validation-for="TipoPagoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Regresar al listado</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

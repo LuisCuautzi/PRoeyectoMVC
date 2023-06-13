@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Gen06_23_AutosMVC.Models.Rentum>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Renta</h1>
+
+<p>
+    <a asp-action="Create">Nueva Renta</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaFin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatosPersonalesId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Auto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Perfil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusRenta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaFin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatosPersonalesId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Auto.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Perfil.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusRenta.Descripcion)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

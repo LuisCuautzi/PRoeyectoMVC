@@ -1,115 +1,29 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
-    <title>ULOAX</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- fevicon -->
-    @*<link rel="icon" href="images/fevicon.png" type="image/gif" />*@
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-    <!-- Tweaks for older IEs-->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <!-- owl stylesheets -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+﻿@model IEnumerable<Gen06_23_AutosMVC.Models.Auto>
 
-</head>
-<body>
-    <div id="taxis" class="taxis_section layout_padding">
-        <div class="container">
-            <h1 class="our_text">Catalogo de <span style="color: #75ACC7;">Automiviles</span></h1>
-            <div class="taxis_section_2">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="taxi_main">
-                            <div class="round_1">01</div>
-                            <h2 class="carol_text">CAR 1</h2>
-                            <p class="reader_text">
-                                act that a reader will be<br>
-                                distracted
-                            </p>
-                            <div class="images_2"><a href="#"><img src="img/i7.jpg"></a></div>
+<div id="taxis" class="taxis_section layout_padding">
+    <div class="container">
+        <h1 class="our_text">Catalogo de <span style="color: #75ACC7;">Automoviles</span></h1>
+        <div class="taxis_section_2">
+            <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="card col-sm-4">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="@Html.DisplayFor(modelItem => item.Urlfoto)" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                <li>@Html.DisplayFor(modelItem => item.Modelo)</li>
+                                <li>@Html.DisplayFor(modelItem => item.StatusAuto.Descripcion)</li>
+                                </ul>
+                                <a href="#!" class="btn btn-primary">Rentar</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="taxi_main">
-                            <div class="round_1">02</div>
-                            <h2 class="carol_text">CAR 2</h2>
-                            <p class="reader_text">
-                                act that a reader will be<br>
-                                distracted
-                            </p>
-                            <div class="images_2"><img src="img/i7.jpg"></a></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="taxi_main">
-                            <div class="round_1">03</div>
-                            <h2 class="carol_text">CAR 3</h2>
-                            <p class="reader_text">
-                                act that a reader will be<br>
-                                distracted
-                            </p>
-                            <div class="images_2"><img src="img/i7.jpg"></a></div>
-                        </div>
-                    </div>
-                </div>
+                    }   
             </div>
         </div>
     </div>
-    <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>    
-    <script src="js/plugin.js"></script>
-    <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
-    <!-- javascript -->
-    <script src="js/owl.carousel.js"></script>
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".fancybox").fancybox({
-                openEffect: "none",
-                closeEffect: "none"
-            });
-
-            $(".zoom").hover(function () {
-
-                $(this).addClass('transition');
-            }, function () {
-
-                $(this).removeClass('transition');
-            });
-        });
-    </script>
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
-</body>
-</html>
+</div>

@@ -189,8 +189,20 @@
       "PackagePath": "staticwebassets\\img\\bg-01.jpg"
     },
     {
-      "Id": "C:\\Users\\TRNET-13\\source\\repos\\Gen 06_23\\MVC\\Gen06_23_AutosMVC\\Gen06_23_AutosMVC\\wwwroot\\img\\i7.jpg",
-      "PackagePath": "staticwebassets\\img\\i7.jpg"
+      "Id": "C:\\Users\\TRNET-13\\source\\repos\\Gen 06_23\\MVC\\Gen06_23_AutosMVC\\Gen06_23_AutosMVC\\wwwroot\\img\\carros\\audi.webp",
+      "PackagePath": "staticwebassets\\img\\carros\\audi.webp"
+    },
+    {
+      "Id": "C:\\Users\\TRNET-13\\source\\repos\\Gen 06_23\\MVC\\Gen06_23_AutosMVC\\Gen06_23_AutosMVC\\wwwroot\\img\\carros\\audi1.jpeg",
+      "PackagePath": "staticwebassets\\img\\carros\\audi1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TRNET-13\\source\\repos\\Gen 06_23\\MVC\\Gen06_23_AutosMVC\\Gen06_23_AutosMVC\\wwwroot\\img\\carros\\bmw.jpg",
+      "PackagePath": "staticwebassets\\img\\carros\\bmw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TRNET-13\\source\\repos\\Gen 06_23\\MVC\\Gen06_23_AutosMVC\\Gen06_23_AutosMVC\\wwwroot\\img\\carros\\i7.jpg",
+      "PackagePath": "staticwebassets\\img\\carros\\i7.jpg"
     },
     {
       "Id": "C:\\Users\\TRNET-13\\source\\repos\\Gen 06_23\\MVC\\Gen06_23_AutosMVC\\Gen06_23_AutosMVC\\wwwroot\\img\\user.png",

@@ -1,14 +1,23 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Gen06_23_AutosMVC.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Gen06_23_AutosMVC.Controllers
 {
     public class CatalogoController : Controller
     {
-        // GET: CatalogoController
-        public ActionResult Index()
+        private readonly Gen06_23_MCVContext _context;
+
+        public CatalogoController(Gen06_23_MCVContext context)
         {
-            return View();
+            _context = context;
+        }
+        // GET: CatalogoController
+        public async Task<ActionResult> Index()
+        {
+            var gen06_23_MCVContext = _context.Autos.Include(a => a.StatusAuto);
+            return View(await gen06_23_MCVContext.ToListAsync());
         }
 
         // GET: CatalogoController/Details/5
